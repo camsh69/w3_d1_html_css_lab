@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body > header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+}
+
+body > header > h1 {
+    padding-left: 16px;
+    color: white;
+}
+
+body > header > nav > ul {
+    margin: 0;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+    display: flex;
+}
+
+body > header > nav > ul > li > a {
+    padding-right: 8px;
+    color: white;
+}
+
+body > main {
+    margin: auto;
+    width: 70%;
+}
+
+body > main > aside {
+    display: flex;
+
+}
+
+body > main > aside > section {
+    padding-right: 32px;
+}
+
+.latest {
+    display: flex;
+    height: 200px;
+    padding-bottom: 32px;
+
+}
+
+.latest img {
+    padding-right: 32px; 
+}
+
+body > main > article > footer {
+    padding-bottom: 32px;
+}
+
+body > main > article > footer > form > textarea {
+    width: 100%;
+}
+
+body > main > article > footer > form > input {
+    display: block;
+    margin-left: auto;
+}
+
+body > main > article > footer 
